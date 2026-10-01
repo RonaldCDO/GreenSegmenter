@@ -1,0 +1,24 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+models/*.pt
+models/*.pth
+models/*.onnx
+# Dados pessoais e artefatos gerados nunca fazem parte da distribuição.
+workspace/
+models/
+*.pt
+*.pth
+*.onnx
+.ruff_cache/
+.aws/
+.codex/
+.agents/
+.env
+.env.*
+!.env.example
